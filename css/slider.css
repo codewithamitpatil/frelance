@@ -1,0 +1,15 @@
+.clients .client-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.clients .client-slider img {
+  max-width: 80%;
+}
+
+
+.clients .client-slider h1 {
+  font-size: 17px;
+  color: #1b55ac;
+  font-weight: 460;
+}
