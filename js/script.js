@@ -112,7 +112,15 @@
       arrows: false,
       autoplay: true,
       autoplaySpeed: 2000,
-      dots: true
+      dots: false
+    });
+    $('.about-slider3').slick({
+      slidesToShow: 1,
+      infinite: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: false
     });
 
     // -----------------------------
