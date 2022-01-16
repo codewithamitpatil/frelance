@@ -122,6 +122,14 @@
       autoplaySpeed: 2000,
       dots: false
     });
+    $('.client-slider4').slick({
+      slidesToShow: 1,
+      infinite: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: false
+    });
 
     // -----------------------------
     //  Quote Slider
@@ -246,6 +254,48 @@
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2
+          }
+        }
+      ]
+    });
+
+    $('.client-slider5').slick({
+      slidesToShow: 4,
+      infinite: true,
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 0,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
             slidesToScroll: 1,
             arrows: false,
           }

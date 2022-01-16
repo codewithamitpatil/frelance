@@ -150,6 +150,7 @@ a:hover {
   text-decoration: none;
 }
 
+
 .bg-gray {
   background: #fafafa;
 }
@@ -1111,55 +1112,6 @@ hr {
 
 
 
-
-
-
-/** amitsliderchange **/
-.clients .client-slider img {
-  max-width: 80%;
-}
-
-.clients .client-slider h1 {
-  font-size: 17px;
-  color: #1b55ac;
-  font-weight: 460;
-}
-
-
-
-@media (max-width: 968px) {
-
-
-
-  .clients .client-slider h1 {
-    font-size: 14px;
-    text-align: center;
-    color: #002d5b99;
-    color: #1b55ac;
-    /* color: #09cc7f; */
-  }
-
-
-
-}
-
-
-
-.clients .client-slider1 .slick-track {
-  display: flex;
-  align-items: center;
-}
-
-.clients .client-slider1 img {
-  max-width: 80%;
-}
-
-
-.clients .client-slider1 h1 {
-  font-size: 17px;
-  color: #1b55ac;
-  font-weight: 460;
-}
 
 
 .hideDiv {
