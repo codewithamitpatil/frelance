@@ -106,7 +106,14 @@
       autoplaySpeed: 2000,
       dots: true
     });
-
+    $('.about-slider1').slick({
+      slidesToShow: 1,
+      infinite: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true
+    });
 
     // -----------------------------
     //  Quote Slider
